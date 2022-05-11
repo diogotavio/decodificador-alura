@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Decodificador Alura</title>
+  </head>
+  <header>
+    <img src="imagens/simbolAlura.png" alt="logo Alura com a inicial da letra a.">
+  </header>
+
+  <body>
+    <main class="main">
+            <section>
+              <textarea autofocus class="input-texto" rows="6" cols="40" placeholder="Digite sua mensagem"></textarea>
+              <div class="info">
+                  <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+              </div>
+
+              <div class="botoes">
+                <button class="criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="descriptografar" onclick="btnDencriptar()">Descriptografar</button>
+              </div>
+            </section>
+
+            <section>
+              <textarea class="output-mensagem" rows="8" cols="18">Nenhuma mensagem encontrada
+              </textarea>
+              <button id="execCopy">Copiar</button>
+            </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+
+<footer class="footer">
+    <p>Diogo Silva Otávio, Aluno One - 2022</p>
+</footer>
+
+</html>
